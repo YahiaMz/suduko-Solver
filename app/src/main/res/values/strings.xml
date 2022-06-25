@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Suduko_Solver</string>
+    <string name="bold" >bold</string>
+</resources>

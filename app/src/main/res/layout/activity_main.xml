@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.aplication.suduko_solver.Suduko_board
+        android:id="@+id/suduko_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        custom:BOARDCOLOR="#000"
+        custom:FILL_COLOR="#300050f0"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.0"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </com.aplication.suduko_solver.Suduko_board>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/solve_bg"
+        android:text="solve"
+        android:textColor="@color/white"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/suduko_board"
+        custom:layout_constraintVertical_bias="0.59" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        custom:layout_constraintBottom_toTopOf="@id/button"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="1.0"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/suduko_board"
+        custom:layout_constraintVertical_bias="0.13">
+
+        <Button
+            android:id="@+id/NUMBER1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+        <Button
+            android:id="@+id/NUMBER2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+        <Button
+            android:id="@+id/NUMBER3"
+
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+        <Button
+            android:id="@+id/NUMBER4"
+
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+
+        <Button
+            android:id="@+id/NUMBER5"
+
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+        <Button
+            android:id="@+id/NUMBER6"
+
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+
+        <Button
+            android:id="@+id/NUMBER7"
+
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+        <Button
+            android:id="@+id/NUMBER8"
+
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"></Space>
+
+        <Button
+            android:id="@+id/NUMBER9"
+
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/bg1"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/numeber_size" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

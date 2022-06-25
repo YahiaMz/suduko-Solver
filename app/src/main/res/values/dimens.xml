@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="numeber_size">25dp</dimen>
+    <dimen name="space_wiegth">0.1</dimen>
+</resources>

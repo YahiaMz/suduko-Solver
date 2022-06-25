@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Suduko_board">
+        <attr name="BOARDCOLOR" format="color"></attr>
+        <attr name="FILL_COLOR" format="color"></attr>
+        <attr name="LETTER_COLOR" format="color"></attr>
+        <attr name="LETTER_SIZE" format="dimension"></attr>
+    </declare-styleable>
+</resources>
